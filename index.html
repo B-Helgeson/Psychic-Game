@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="javascript/game.js"></script>
+
+    <title>Psychic Game</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Psychic Game</h1>
+        <h3>Guess what letter I'm thinking of</h3>
+    </header>
+
+    <section class="imageBox">
+        <img id="computerImage" src="images/computerImage.png" alt="computer">
+    </section> 
+
+                <section class="gameBox">
+
+                                <div id="wins">
+                                    <h4>Wins: <span class="badge" id="winCount">0</span></h4>
+                                </div> <!-- wins -->
+                                                
+                                <div id="losses">
+                                    <h4>Losses: <span class="badge" id="lossCount">0</span></h4>
+                                </div> <!-- losses -->
+
+                        <div id="guessesRemaining">
+                            <h4>Guesses Left: <span id="guesses"> 7 </span></h4>
+                        </br>
+                        </div> <!-- guessesRemaining -->
+
+                        <div id="lettersGuessed">
+                            <h4>Letters Already Guessed:</h4>
+                            <p> <span id="lettersGuessed">A,B,C,D,E</span></p>
+                        </div> <!-- lettersGuessed -->
+
+                 </section> <!-- gameBox -->
+
+</body>
+
+</html>

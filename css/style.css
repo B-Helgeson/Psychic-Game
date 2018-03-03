@@ -1,0 +1,15 @@
+/*global style*/
+
+header {
+    border-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#computerImage {
+    max-width: 200px;
+    padding:20px;
+}
+
+.scoreBoard {
+    padding-bottom: 50px;
+}
