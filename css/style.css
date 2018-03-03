@@ -13,3 +13,11 @@ header {
 .scoreBoard {
     padding-bottom: 50px;
 }
+
+body {
+    padding: 20px;
+}
+
+#lettersGuessed {
+    padding-left: 50px;
+}
